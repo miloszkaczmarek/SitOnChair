@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>CodersLab</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 </head>
 <body>
 
@@ -30,11 +31,139 @@
 </header>
 
 
-<div class="slider">
-
-    <img src="images/black_chair.png">
-
+<div class="slider" id="slider1">
+    <ul class="slider-slides">
+        <li class="slider-slide slider-slide-active">
+            <img src="images/black_chair.png" class="slider-img">
+            <section class="desc">
+            <h1>SIT <span>ON</span> OUR <span>CHAIR</span></h1>
+            <p>Curabitur ut justo dapibus, viverra mauris vitae, interdum lacus. Vestibulum rutrum risus tellus, sit                amet sodales tellus faucibus non. Praesent sagittis nulla ex. Nulla efficitur sapien eget vehicula                   bibendum. Sed iaculis non sapien quis vehicula. Praesent dapibus, erat in molestie facilisis, mauris                 ligula sagittis elit, lacinia lobortis libero felis eget massa.</p>
+                <a href="#" class="myButton">ZOBACZ WIĘCEJ</a>
+            </section>
+        </li>
+        <li class="slider-slide">
+            <img src="images/orange_chair.png" class="slider-img">
+            <section class="desc">
+                <h1>SIT <span>ON</span> OUR <span>CHAIR</span></h1>
+                <p>Curabitur ut justo dapibus, viverra mauris vitae, interdum lacus. Vestibulum rutrum risus tellus,                    sit amet sodales tellus faucibus non. Praesent sagittis nulla ex. Nulla efficitur sapien eget vehicula bibendum. Sed iaculis non sapien quis vehicula. Praesent dapibus, erat in molestie facilisis, mauris ligula sagittis elit, lacinia lobortis libero felis eget massa.</p>
+                <a href="#" class="myButton">ZOBACZ WIĘCEJ</a>
+            </section>
+        </li>
+    </ul>
+    <button class="slider-prev"><i class="fas fa-angle-left"></i></button>
+    <button class="slider-next"><i class="fas fa-angle-right"></i></button>
 </div>
+
+
+<section class="container">
+    <div class="article">
+        <div class="background">
+            <p>Chair CLAIR</p>
+            <div class="border"></div>
+        </div>
+    </div>
+    <div class="article2">
+        <div class="background">
+            <p>Chair MARGARITA</p>
+            <div class="border"></div>
+        </div>
+    </div>
+    <div class="box_text">
+        <p class="title">Finds all inputs</p>
+        <div class="border"></div>
+        <p>Vestibulum mollis velit sed eros dignissim, tempus congue diam maximus. Nunc a erat a dui tempor dapibus a sit amet quam. Ut semper rhoncus elit, a accumsan leo eleifend nec.</p>
+        <p>Vivamus vehicula lorem tellus. Etiam sit amet pellentesque purus, non vehicula risus. Ut quis urna in quam faucibus pellentesque.</p>
+    </div>
+</section>
+
+
+<main>
+
+    <div class="container">
+        <h3>CENNIK</h3>
+        <div class="border"></div>
+    </div>
+
+    <div class="offer container">
+
+        <div class="box">
+            <h3 id="main-text">BASIC PLAN</h3>
+            <div class="circle_up"></div>
+            <div class="circle">
+                <div class="circle-text">85<sup>99</sup><p>PLN/MSC</p></div>
+            </div>
+            <div class="buy">Zakup towaru + dowóz</div>
+            <div class="buy2">Serwis</div>
+            <a href="#" class="mini-button"><p>DOŁĄCZ</p></a>
+        </div>
+
+        <div class="box2">
+            <h3 id="main-text2">STANADARD PLAN</h3>
+            <div class="circle_up"></div>
+            <div class="circle">
+                <div class="circle-text">95<sup>99</sup><p>PLN/MSC</p></div>
+            </div>
+            <div class="buy">Zakup towaru + dowóz</div>
+            <div class="buy2">Serwis</div>
+            <div class="buy2">Gwarancja 5 lat</div>
+            <a href="#" class="mini-button"><p>DOŁĄCZ</p></a>
+        </div>
+
+        <div class="box3">
+            <h3 id="main-text3">ADVANCE PLAN</h3>
+            <div class="circle_up"></div>
+            <div class="circle">
+                <div class="circle-text">211<sup>00</sup><p>PLN/MSC</p></div>
+            </div>
+            <div class="buy">Zakup towaru + dowóz</div>
+            <div class="buy2">Serwis</div>
+            <div class="buy2">Gwarancja 6 lat</div>
+            <div class="buy2">Porady projektanta</div>
+            <a href="#" class="mini-button"><p>DOŁĄCZ</p></a>
+        </div>
+    </div>
+</main>
+
+
+<footer class="container">
+
+    <form>
+        <h3>KONTAKT</h3>
+        <div class="border"></div>
+        <input type="text" placeholder="Imię"><br>
+        <input type="text" placeholder="E-mail"><br>
+        <textarea placeholder="Wiadomość"></textarea>
+    </form>
+
+    <div class="right">
+        <figure><img src="images/red_chair.png" alt=""></figure>
+        <label class="container-input">
+            <input type="checkbox">
+            Zgadzam się na przetwarzanie danych osobowych
+            <span class="checkmark"></span>
+        </label>
+        <button type="submit">WYŚLIJ</button>
+    </div>
+    
+</footer>
+
+<div class="container social-media">
+    <div class="left">
+        Copyright 2014 | All Rights Reserved - Sit On Chair
+    </div>
+
+    <div class="social-media-icons">
+        <a href="#"><img src="images/flickr.png" alt=""></a>
+        <a href="#"><img src="images/vimeo.png" alt=""></a>
+        <a href="#"><img src="images/pinterest.png" alt=""></a>
+        <a href="#"><img src="images/twitter.png" alt=""></a>
+
+        <p>SIT <span>ON</span> CHAIR</p>
+    </div>
+</div>
+
+<script src="js/app.js"></script>
+<script src="js/app2.js"></script>
 
 </body>
 </html>
